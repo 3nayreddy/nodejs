@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         AWS_ACCOUNT_ID="119023640496"
-        AWS_DEFAULT_REGION="us-west-2" 
+        AWS_DEFAULT_REGION="us-west-1" 
 	CLUSTER_NAME="PoC-Test"
 	SERVICE_NAME="nodejs-container-service"
 	TASK_DEFINITION_NAME="first-run-task-definition"
