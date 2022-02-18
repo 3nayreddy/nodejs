@@ -3,7 +3,7 @@ pipeline {
     environment {
         AWS_ACCOUNT_ID="119023640496"
         AWS_DEFAULT_REGION="us-west-2" 
-	CLUSTER_NAME="default"
+	CLUSTER_NAME="PoC-Test"
 	SERVICE_NAME="nodejs-container-service"
 	TASK_DEFINITION_NAME="first-run-task-definition"
 	DESIRED_COUNT="1"
