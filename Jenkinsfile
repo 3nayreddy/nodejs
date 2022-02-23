@@ -3,9 +3,9 @@ pipeline {
     environment {
         AWS_ACCOUNT_ID="119023640496"
         AWS_DEFAULT_REGION="ap-south-1" 
-	CLUSTER_NAME="demo-cluster"
+	CLUSTER_NAME="default"
 	SERVICE_NAME="nodejs-container-service1"
-	TASK_DEFINITION_NAME="ec2-taskdefinition"
+	TASK_DEFINITION_NAME="first-run-task-definition"
 	DESIRED_COUNT="1"
         IMAGE_REPO_NAME="demo"
         IMAGE_TAG="${env.BUILD_ID}"
