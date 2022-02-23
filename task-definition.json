@@ -8,16 +8,16 @@
             "portMappings": [
                 {
                     "containerPort": 3000,
-                    "hostPort": 4000
+                    "hostPort": 3000
                 }
             ]
         }
     ],
-    "cpu": "2048",
-    "memory": "1024",
+    "cpu": "256",
+    "memory": "512",
     "requiresCompatibilities": [
-             "EC2"
+             "FARGATE"
     ],
-    "networkMode": "null",
+    "networkMode": "awsvpc",
     "executionRoleArn": ROLE_ARN 
 }
