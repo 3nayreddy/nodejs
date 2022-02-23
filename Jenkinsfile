@@ -4,7 +4,7 @@ pipeline {
         AWS_ACCOUNT_ID="119023640496"
         AWS_DEFAULT_REGION="ap-south-1" 
 	CLUSTER_NAME="default"
-	SERVICE_NAME="nodejs-container-service1"
+	SERVICE_NAME="nodejs-container-service"
 	TASK_DEFINITION_NAME="first-run-task-definition"
 	DESIRED_COUNT="1"
         IMAGE_REPO_NAME="demo"
